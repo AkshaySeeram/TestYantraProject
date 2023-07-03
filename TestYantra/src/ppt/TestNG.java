@@ -6,6 +6,11 @@ import org.testng.annotations.Test;
 
 public class TestNG {
 
+//	@Test
+//	public void Demo() {
+//		System.out.println("Hi");
+//	}
+	
 	@Test
 	public void demo() {
 		System.out.println("Hi");
@@ -15,10 +20,10 @@ public class TestNG {
 		//Assert.fail();
 	}
 
-	@Test
-	public void createCustomer() {
-		Reporter.log("createCustomer",true);
-		Assert.fail();
-	}
+//	@Test
+//	public void createCustomer() {
+//		Reporter.log("createCustomer",true);
+//		Assert.fail();
+//	}
 
 }

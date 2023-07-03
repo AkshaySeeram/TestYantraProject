@@ -1,45 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[createCustomer]]>
-    </line>
-    <line>
-      <![CDATA[Hello]]>
-    </line>
-    <line>
-      <![CDATA[Bye]]>
-    </line>
-    <line>
-      <![CDATA[Byeee]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-06-21T09:40:32 IST" name="Default suite" finished-at="2023-06-21T09:40:32 IST" duration-ms="52">
+  <suite started-at="2023-07-03T10:35:37 IST" name="Default suite" finished-at="2023-07-03T10:36:38 IST" duration-ms="61412">
     <groups>
     </groups>
-    <test started-at="2023-06-21T09:40:32 IST" name="Default test" finished-at="2023-06-21T09:40:32 IST" duration-ms="52">
-      <class name="ppt.TestNG">
-        <test-method signature="createCustomer()[pri:0, instance:ppt.TestNG@1534f01b]" started-at="2023-06-21T09:40:32 IST" name="createCustomer" finished-at="2023-06-21T09:40:32 IST" duration-ms="13" status="PASS">
+    <test started-at="2023-07-03T10:35:37 IST" name="Default test" finished-at="2023-07-03T10:36:38 IST" duration-ms="61412">
+      <class name="testng_basics.Working_With_Data_Provider">
+        <test-method signature="dataDemo(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng_basics.Working_With_Data_Provider@78e117e3]" started-at="2023-07-03T10:35:37 IST" name="dataDemo" data-provider="TestData" finished-at="2023-07-03T10:35:47 IST" duration-ms="9974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akshay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[akshay@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[akshay]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[akshay]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[createCustomer]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- createCustomer -->
-        <test-method signature="demo()[pri:0, instance:ppt.TestNG@1534f01b]" started-at="2023-06-21T09:40:32 IST" name="demo" finished-at="2023-06-21T09:40:32 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- dataDemo -->
+        <test-method signature="dataDemo(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng_basics.Working_With_Data_Provider@78e117e3]" started-at="2023-07-03T10:35:47 IST" name="dataDemo" data-provider="TestData" finished-at="2023-07-03T10:35:55 IST" duration-ms="8817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anirudh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B S]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anirudh@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[anirudh]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[anirudh]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[Hello]]>
-            </line>
-            <line>
-              <![CDATA[Bye]]>
-            </line>
-            <line>
-              <![CDATA[Byeee]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- demo -->
-      </class> <!-- ppt.TestNG -->
+        </test-method> <!-- dataDemo -->
+        <test-method signature="dataDemo(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng_basics.Working_With_Data_Provider@78e117e3]" started-at="2023-07-03T10:35:55 IST" name="dataDemo" data-provider="TestData" finished-at="2023-07-03T10:36:05 IST" duration-ms="9176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vamsi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vamsi@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[vamsi]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[vamsi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDemo -->
+        <test-method signature="dataDemo(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng_basics.Working_With_Data_Provider@78e117e3]" started-at="2023-07-03T10:36:05 IST" name="dataDemo" data-provider="TestData" finished-at="2023-07-03T10:36:38 IST" duration-ms="33393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prajith Sai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[prajithsai@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[prajith]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[prajith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDemo -->
+      </class> <!-- testng_basics.Working_With_Data_Provider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

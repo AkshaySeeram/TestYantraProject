@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ppt.TestNG">
+      <class name="ppt.Demo">
         <methods>
-          <include name="createCustomer"/>
+          <include name="Browser_TearDown"/>
+          <include name="demo"/>
+          <include name="Browser_Setup"/>
         </methods>
-      </class> <!-- ppt.TestNG -->
+      </class> <!-- ppt.Demo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

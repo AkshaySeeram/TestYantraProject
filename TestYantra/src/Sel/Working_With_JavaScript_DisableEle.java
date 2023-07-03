@@ -17,13 +17,11 @@ public class Working_With_JavaScript_DisableEle {
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.get("https://demoapp.skillrary.com/index.php");
 		WebElement diabledele= driver.findElement(By.xpath("//input[@class='form-control']"));
-		WebElement diabledbutt= driver.findElement(By.xpath("//i[@class='fa fa-envelope']"));
 		
 		Thread.sleep(2000);
 
 		JavascriptExecutor js=(JavascriptExecutor) driver;
 		js.executeScript("arguments[0].value='Hello';",diabledele);
 		Thread.sleep(2000);
-		js.executeScript("arguments[0].click();",diabledbutt);
 	}
 }
